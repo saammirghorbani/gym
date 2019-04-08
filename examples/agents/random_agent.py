@@ -25,7 +25,7 @@ if __name__ == '__main__':
     # want to change the amount of output.
     logger.set_level(logger.INFO)
 
-    env = gym.make('BlockSlide-v1')
+    env = gym.make(args.env_id)
 
     # You provide the directory to write to (can be an existing
     # directory, including one with existing data -- all monitor files
